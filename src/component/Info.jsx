@@ -6,7 +6,7 @@ const Info = ({ name, age, profession }) => {
             <p><strong>Age:</strong><li> {age + 10}</li></p>
             <ul>
                 <strong>Profession:</strong>
-                {profession.map(pro => <li className='skills__list'>{pro}</li>)}
+                {profession.map((pro,id )=> <li className='skills__list' key={id}>{pro}</li>)}
             </ul>
         </div>
     )
