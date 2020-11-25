@@ -1,9 +1,9 @@
 const Info = ({ name, age, profession }) => {
     return(
         <div>
-            <p>Name: {name}</p>
-            <p>Age: {age}</p>
-            <p>Profession: {profession}</p>
+            <p><strong>Name:</strong> {name}</p>
+            <p><strong>Age:</strong> {age}</p>
+            <p><strong>Profession:</strong> {profession}</p>
         </div>
     )
 }
