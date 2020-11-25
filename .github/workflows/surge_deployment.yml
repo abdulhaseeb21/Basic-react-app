@@ -43,4 +43,4 @@ jobs:
         run: npm install -g surge       
         
       - name: deploy react app to surge
-        run: surge ./build basic-react-site-haseeb.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build simple-react-app-haseeb.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
