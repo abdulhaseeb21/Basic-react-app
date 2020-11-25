@@ -4,8 +4,8 @@ const Info = ({ name, age, profession }) => {
         <div className='main_div'>
             <p><strong>Name:</strong> <li>{name}</li></p>
             <p><strong>Age:</strong><li> {age + 10}</li></p>
+            <p><strong>Profession:</strong></p>
             <ul>
-                <strong>Profession:</strong>
                 {profession.map((pro,id )=> <li className='skills__list' key={id}>{pro}</li>)}
             </ul>
         </div>
